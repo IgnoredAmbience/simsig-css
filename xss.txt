@@ -1,0 +1,9 @@
+</style>
+<script type="text/javascript">
+window.onload = function(){
+var pre = document.createElement("pre");
+pre.appendChild(document.createTextNode(document.all[0].innerHTML));
+document.all[0].appendChild(pre);
+};
+</script>
+
